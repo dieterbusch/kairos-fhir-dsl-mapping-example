@@ -1,0 +1,936 @@
+﻿COMPONENT;PROPERTY;TIME_ASPCT;SYSTEM;SCALE_TYP;METHOD_TYP
+Creatinine;SCnc;Pt;Bld;Qn;
+Creatinine;MCnc;Pt;Bld;Qn;
+Creatinine;SCnc;Pt;Ser/Plas;Qn;
+Creatinine;MCnc;Pt;Ser/Plas;Qn;
+Creatinine;MCnc;Pt;BldA;Qn;
+Leukocytes;NCnc;Pt;Bld;Qn;
+Leukocytes;NCnc;Pt;Bld;Qn;Estimate
+Leukocytes;NCnc;Pt;Bld;Qn;Automated count
+Leukocytes;NCnc;Pt;Bld;Qn;Manual count
+Hematocrit;VFr;Pt;Bld;Qn;
+Hematocrit;VFr;Pt;Bld;Qn;Impedance
+Hematocrit;VFr;Pt;Bld;Qn;Automated count
+Hematocrit;VFr;Pt;Bld;Qn;Spun
+Hematocrit;VFr;Pt;Bld;Qn;Estimated
+Hematocrit;VFr;Pt;BldA;Qn;
+Hematocrit;VFr;Pt;BldV;Qn;
+Hematocrit;VFr;Pt;BldMV;Qn;
+Hematocrit;VFr;Pt;BldC;Qn;
+Erythrocyte mean corpuscular volume;EntVol;Pt;RBC;Qn;
+Erythrocyte mean corpuscular volume;EntVol;Pt;RBC;Qn;Automated count
+Erythrocyte mean corpuscular hemoglobin;EntMass;Pt;RBC;Qn;
+Erythrocyte mean corpuscular hemoglobin;EntMass;Pt;RBC;Qn;Automated count
+Erythrocyte mean corpuscular hemoglobin concentration;SCnc;Pt;RBC;Qn;
+Erythrocyte mean corpuscular hemoglobin concentration;MCnc;Pt;RBC;Qn;
+Erythrocyte mean corpuscular hemoglobin concentration;MCnc;Pt;RBC;Qn;Automated count
+Erythrocyte distribution width;Ratio;Pt;RBC;Qn;
+Erythrocyte distribution width;Ratio;Pt;RBC;Qn;Automated count
+Hemoglobin;SCnc;Pt;Bld;Qn;
+Hemoglobin;MCnc;Pt;Bld;Qn;Calculated
+Hemoglobin;MCnc;Pt;Bld;Qn;Oximetry
+Hemoglobin;MCnc;Pt;Bld;Qn;
+Hemoglobin;SCnc;Pt;BldA;Qn;
+Hemoglobin;MCnc;Pt;BldA;Qn;Oximetry
+Hemoglobin;MCnc;Pt;BldA;Qn;
+Hemoglobin;MCnc;Pt;BldV;Qn;
+Hemoglobin;MCnc;Pt;BldMV;Qn;
+Hemoglobin;MCnc;Pt;BldC;Qn;
+Hemoglobin;MCnc;Pt;BldMV;Qn;Oximetry
+Hemoglobin;MCnc;Pt;BldV;Qn;Oximetry
+Erythrocytes;NCnc;Pt;Bld;Qn;
+Erythrocytes;NCnc;Pt;Bld;Qn;Automated count
+Erythrocytes;NCnc;Pt;Bld;Qn;Manual count
+Potassium;SCnc;Pt;Bld;Qn;
+Potassium;MCnc;Pt;Bld;Qn;
+Potassium;SCnc;Pt;Ser/Plas;Qn;
+Potassium;SCnc;Pt;BldA;Qn;
+Potassium;SCnc;Pt;BldV;Qn;
+Potassium;SCnc;Pt;BldC;Qn;
+Potassium;SCnc;Pt;BldMV;Qn;
+Potassium;MCnc;Pt;Ser/Plas;Qn;
+Coagulation surface induced;Time;Pt;Bld;Qn;Coag
+Coagulation surface induced;Time;Pt;PPP;Qn;Coag
+Coagulation surface induced;Time;Pt;PPP;Qn;Coag.saline 1:1
+Coagulation surface induced;Time;Pt;Bld;Qn;Coag.saline 1:1
+Platelets;NCnc;Pt;Bld;Qn;
+Platelets;NCnc;Pt;Bld;Qn;Estimate
+Platelets;NCnc;Pt;Bld;Qn;Automated count
+Platelets;NCnc;Pt;Bld;Qn;Manual count
+Platelets;NCnc;Pt;Plas;Qn;Automated count
+Platelets;NCnc;Pt;Plas;Qn;
+Platelets;NCnc;Pt;BldC;Qn;Manual count
+Platelets;NCnc;Pt;PRP;Qn;Automated count
+Platelet mean volume;EntVol;Pt;Bld;Qn;
+Platelet mean volume;EntVol;Pt;Bld;Qn;Automated count
+Platelet mean volume;EntVol;Pt;Bld;Qn;Rees-Ecker
+Sodium;SCnc;Pt;Bld;Qn;
+Sodium;SCnc;Pt;Ser/Plas;Qn;
+Sodium;SCnc;Pt;BldA;Qn;
+Sodium;SCnc;Pt;BldV;Qn;
+Sodium;SCnc;Pt;BldC;Qn;
+Sodium;SCnc;Pt;BldMV;Qn;
+Glucose;SCnc;Pt;Bld;Qn;
+Glucose;MCnc;Pt;Bld;Qn;
+Glucose;MCnc;Pt;Bld;Qn;Test strip.automated
+Glucose;MCnc;Pt;Bld;Qn;Test strip manual
+Glucose;SCnc;Pt;Bld;Qn;Test strip.automated
+Glucose;SCnc;Pt;BldC;Qn;Glucometer
+Glucose;SCnc;Pt;Ser/Plas;Qn;
+Glucose;SCnc;Pt;BldV;Qn;
+Glucose;SCnc;Pt;BldA;Qn;
+Glucose;SCnc;Pt;BldC;Qn;
+Glucose;MCnc;Pt;Ser/Plas;Qn;
+Glucose;MCnc;Pt;BldC;Qn;
+Glucose;MCnc;Pt;BldA;Qn;
+Glucose;MCnc;Pt;BldV;Qn;
+Glucose;MCnc;Pt;BldC;Qn;Glucometer
+C reactive protein;SCnc;Pt;Ser/Plas;Qn;
+C reactive protein;MCnc;Pt;Ser/Plas;Qn;
+C reactive protein;MCnc;Pt;Ser/Plas;Qn;High sensitivity
+C reactive protein;SCnc;Pt;Ser/Plas;Qn;High sensitivity
+C reactive protein;MCnc;Pt;Bld;Qn;High sensitivity
+C reactive protein;MCnc;Pt;BldC;Qn;
+Erythrocyte distribution width;EntVol;Pt;RBC;Qn;
+Erythrocyte distribution width;EntVol;Pt;RBC;Qn;Automated count
+Oxygen saturation;MFr;Pt;Bld;Qn;
+Oxygen saturation;MFr;Pt;Bld;Qn;Calculated from oxygen partial pressure
+Oxygen saturation;MFr;Pt;BldMV;Qn;
+Oxygen saturation;MFr;Pt;BldA;Qn;
+Oxygen saturation;MFr;Pt;BldC;Qn;
+Oxygen saturation;MFr;Pt;BldV;Qn;
+Oxygen saturation;MFr;Pt;BldV;Qn;Calculated from oxygen partial pressure
+Oxygen saturation;MFr;Pt;BldC;Qn;Calculated from oxygen partial pressure
+Oxygen saturation;MFr;Pt;BldA;Qn;Calculated from oxygen partial pressure
+Oxygen saturation;MFr;Pt;BldA;Qn;Pulse oximetry
+Oxygen saturation;MFr;Pt;BldMV;Qn;Calculated from oxygen partial pressure
+Monocytes;NCnc;Pt;Bld;Qn;
+Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;
+Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Monocytes;NCnc;Pt;Bld;Qn;Automated count
+Monocytes;NCnc;Pt;Bld;Qn;Manual count
+Alanine aminotransferase;CCnc;Pt;Bld;Qn;
+Alanine aminotransferase;CCnc;Pt;Ser/Plas;Qn;
+Alanine aminotransferase;CCnc;Pt;Ser/Plas;Qn;With P-5'-P
+Alanine aminotransferase;CCnc;Pt;Ser/Plas;Qn;No addition of P-5'-P
+Urea;SCnc;Pt;Bld;Qn;
+Urea;MCnc;Pt;Bld;Qn;
+Urea;SCnc;Pt;Ser/Plas;Qn;
+Urea;SCnc;Pt;BldV;Qn;
+Urea;SCnc;Pt;BldA;Qn;
+Urea nitrogen;SCnc;Pt;Bld;Qn;
+Urea nitrogen;MCnc;Pt;Bld;Qn;
+Urea nitrogen;SCnc;Pt;Ser/Plas;Qn;
+Urea;MCnc;Pt;Ser/Plas;Qn;
+Urea nitrogen;MCnc;Pt;Ser/Plas;Qn;
+Urea nitrogen;MCnc;Pt;BldA;Qn;
+Urea nitrogen;MCnc;Pt;BldV;Qn;
+Aspartate aminotransferase;CCnc;Pt;Ser/Plas;Qn;
+Aspartate aminotransferase;CCnc;Pt;Ser/Plas;Qn;With P-5'-P
+Aspartate aminotransferase;CCnc;Pt;Ser/Plas;Qn;No addition of P-5'-P
+Platelet distribution width;EntVol;Pt;Bld;Qn;Automated count
+Eosinophils;NCnc;Pt;Bld;Qn;
+Eosinophils/100 leukocytes;NFr;Pt;Bld;Qn;
+Eosinophils/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Eosinophils/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Eosinophils;NCnc;Pt;Bld;Qn;Automated count
+Eosinophils;NCnc;Pt;Bld;Qn;Manual count
+Gamma glutamyl transferase;CCnc;Pt;Ser/Plas;Qn;
+Coagulation tissue factor induced actual/Normal;RelTime;Pt;PPP;Qn;Coag
+Albumin;SCnc;Pt;Ser/Plas;Qn;
+Albumin;MCnc;Pt;Ser/Plas;Qn;
+Albumin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Albumin;MCnc;Pt;Ser/Plas;Qn;BCG
+Albumin;MCnc;Pt;Ser/Plas;Qn;BCP
+Albumin;SCnc;Pt;Ser/Plas;Qn;BCP
+Albumin;SCnc;Pt;Ser/Plas;Qn;BCG
+Albumin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Albumin/Protein.total;MFr;Pt;Ser/Plas;Qn;
+Albumin;MCnc;Pt;Bld;Qn;BCP
+Chloride;SCnc;Pt;Bld;Qn;
+Chloride;SCnc;Pt;Ser/Plas;Qn;
+Chloride;SCnc;Pt;BldV;Qn;
+Chloride;SCnc;Pt;BldA;Qn;
+Chloride;SCnc;Pt;BldC;Qn;
+Basophils;NCnc;Pt;Bld;Qn;
+Basophils/100 leukocytes;NFr;Pt;Bld;Qn;
+Basophils/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Basophils/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Basophils;NCnc;Pt;Bld;Qn;Automated count
+Basophils;NCnc;Pt;Bld;Qn;Manual count
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Bld;Qn;Creatinine-based formula (MDRD)
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas;Qn;Creatinine-based formula (MDRD)
+Calcium.ionized;SCnc;Pt;Bld;Qn;
+Calcium.ionized;MCnc;Pt;Bld;Qn;
+Calcium.ionized;SCnc;Pt;Bld;Qn;ISE
+Calcium.ionized;SCnc;Pt;Ser/Plas;Qn;ISE
+Calcium.ionized;SCnc;Pt;Ser/Plas;Qn;Calculated
+Calcium.ionized;SCnc;Pt;Ser/Plas;Qn;
+Calcium.ionized;SCnc;Pt;BldA;Qn;
+Calcium.ionized;SCnc;Pt;BldC;Qn;
+Calcium.ionized;SCnc;Pt;BldV;Qn;
+Calcium.ionized;SCnc;Pt;BldMV;Qn;
+Calcium.ionized;MCnc;Pt;BldA;Qn;
+Calcium.ionized;MCnc;Pt;Ser/Plas;Qn;
+Calcium.ionized;MCnc;Pt;Ser/Plas;Qn;ISE
+Urobilinogen;SCnc;Pt;Urine;Qn;
+Urobilinogen;MCnc;Pt;Urine;Qn;Test strip
+Urobilinogen;MCnc;Pt;Urine;Qn;
+Urobilinogen;MCnc;Pt;Urine;Qn;Test strip.automated
+Urobilinogen;SCnc;Pt;Urine;Qn;Test strip
+Urobilinogen;SCnc;Pt;Urine;Qn;Test strip.automated
+Calcium;SCnc;Pt;Bld;Qn;
+Calcium;MCnc;Pt;Bld;Qn;
+Calcium;SCnc;Pt;Ser/Plas;Qn;
+Calcium;SCnc;Pt;BldC;Qn;
+Calcium;SCnc;Pt;BldV;Qn;
+Calcium;MCnc;Pt;Ser/Plas;Qn;
+Lactate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;
+Lactate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;Reaction: lactate to pyruvate
+Lactate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;Reaction: pyruvate to lactate
+Bilirubin;SCnc;Pt;Bld;Qn;
+Bilirubin;MCnc;Pt;Bld;Qn;
+Bilirubin;SCnc;Pt;Ser/Plas;Qn;
+Bilirubin;MCnc;Pt;Ser/Plas;Qn;
+Bilirubin;MCnc;Pt;BldA;Qn;
+Bilirubin;MCnc;Pt;BldV;Qn;
+Bilirubin;SCnc;Pt;Urine;Qn;
+Bilirubin;MCnc;Pt;Urine;Qn;
+Bilirubin;MCnc;Pt;Urine;Qn;Test strip
+Bilirubin;MCnc;Pt;Urine;Qn;Test strip.automated
+Bilirubin;SCnc;Pt;Urine;Qn;Test strip
+Bilirubin;SCnc;Pt;Urine;Qn;Test strip.automated
+Coagulation tissue factor induced.INR;RelTime;Pt;Bld;Qn;Coag
+Coagulation tissue factor induced.INR;RelTime;Pt;BldC;Qn;Coag
+Coagulation tissue factor induced.INR;RelTime;Pt;PPP;Qn;Coag
+Glucose;SCnc;Pt;Urine;Qn;
+Glucose;MCnc;Pt;Urine;Qn;
+Glucose;MCnc;Pt;Urine;Qn;Test strip.automated
+Glucose;MCnc;Pt;Urine;Qn;Test strip
+Glucose;SCnc;Pt;Urine;Qn;Test strip
+Glucose;SCnc;Pt;Urine;Qn;Test strip.automated
+Creatine kinase;CCnc;Pt;Ser/Plas;Qn;
+Alkaline phosphatase;CCnc;Pt;Bld;Qn;
+Alkaline phosphatase;CCnc;Pt;Ser/Plas;Qn;
+Protein;MCnc;Pt;Ser/Plas;Qn;
+Thyrotropin;ACnc;Pt;Bld;Qn;
+Thyrotropin;ACnc;Pt;Ser/Plas;Qn;Detection limit <= 0.05 mIU/L
+Thyrotropin;ACnc;Pt;Ser/Plas;Qn;Detection limit <= 0.005 mIU/L
+Thyrotropin;ACnc;Pt;Ser/Plas;Qn;
+Base excess;SCnc;Pt;Bld;Qn;Calculated
+Base excess;SCnc;Pt;BldMV;Qn;Calculated
+Base excess;SCnc;Pt;BldA;Qn;Calculated
+Base excess;SCnc;Pt;BldC;Qn;Calculated
+Base excess;SCnc;Pt;BldV;Qn;Calculated
+Urate;SCnc;Pt;Ser/Plas;Qn;
+Urate;MCnc;Pt;Ser/Plas;Qn;
+Granulocytes.immature;NCnc;Pt;Bld;Qn;
+Granulocytes.immature/100 leukocytes;NFr;Pt;Bld;Qn;
+Granulocytes.immature/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Granulocytes.immature;NCnc;Pt;Bld;Qn;Automated count
+Magnesium;SCnc;Pt;Bld;Qn;
+Magnesium;MCnc;Pt;Bld;Qn;
+Magnesium;SCnc;Pt;Ser/Plas;Qn;
+Magnesium;MCnc;Pt;Ser/Plas;Qn;
+Lactate;SCnc;Pt;Bld;Qn;
+Lactate;MCnc;Pt;Bld;Qn;
+Lactate;SCnc;Pt;BldC;Qn;
+Lactate;SCnc;Pt;BldMV;Qn;
+Lactate;SCnc;Pt;BldA;Qn;
+Lactate;SCnc;Pt;BldV;Qn;
+Lactate;SCnc;Pt;Ser/Plas;Qn;
+Lactate;MCnc;Pt;BldA;Qn;
+Lactate;MCnc;Pt;Ser/Plas;Qn;
+Bicarbonate;SCnc;Pt;Bld;Qn;
+Bicarbonate;SCnc;Pt;BldV;Qn;
+Bicarbonate;SCnc;Pt;BldMV;Qn;
+Bicarbonate;SCnc;Pt;BldA;Qn;
+Bicarbonate;SCnc;Pt;BldC;Qn;
+Bicarbonate;SCnc;Pt;Plas;Qn;
+Bicarbonate;SCnc;Pt;Ser/Plas;Qn;
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Cystatin-based formula
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Creatinine-based formula (Schwartz)
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Creatinine-based formula (CKD-EPI)
+Glomerular filtration rate/1.73 sq M.predicted;ArVRat;Pt;Ser/Plas/Bld;Qn;Creatinine-based formula (MDRD)
+Carbon dioxide;PPres;Pt;Bld;Qn;
+Carbon dioxide;PPres;Pt;BldMV;Qn;
+Carbon dioxide;PPres;Pt;BldA;Qn;
+Carbon dioxide;PPres;Pt;BldC;Qn;
+Carbon dioxide;PPres;Pt;BldV;Qn;
+Carbon dioxide;PPres;Pt;BldC;Qn;Transcutaneous CO2 monitor
+pH;LsCnc;Pt;Bld;Qn;
+pH;LsCnc;Pt;BldMV;Qn;
+pH;LsCnc;Pt;BldA;Qn;
+pH;LsCnc;Pt;BldC;Qn;
+pH;LsCnc;Pt;BldV;Qn;
+pH;LsCnc;Pt;Ser/Plas;Qn;
+Neutrophils;NCnc;Pt;Bld;Qn;
+Neutrophils/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Neutrophils/100 leukocytes;NFr;Pt;Bld;Qn;
+Neutrophils/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Neutrophils;NCnc;Pt;Bld;Qn;Automated count
+Neutrophils;NCnc;Pt;Bld;Qn;Manual count
+Triacylglycerol lipase;CCnc;Pt;Ser/Plas;Qn;
+Lymphocytes;NCnc;Pt;Bld;Qn;
+Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;
+Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;Flow cytometry
+Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Lymphocytes/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Lymphocytes;NCnc;Pt;Bld;Qn;Flow cytometry
+Lymphocytes;NCnc;Pt;Bld;Qn;Automated count
+Lymphocytes;NCnc;Pt;Bld;Qn;Manual count
+Cholesterol.in LDL;SCnc;Pt;Ser/Plas;Qn;
+Cholesterol.in LDL;MCnc;Pt;Ser/Plas;Qn;Calculated
+Cholesterol.in LDL;MCnc;Pt;Ser/Plas;Qn;Direct assay
+Cholesterol.in LDL;MCnc;Pt;Ser/Plas;Qn;
+Cholesterol.in LDL;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Cholesterol.in LDL;MCnc;Pt;Ser/Plas;Qn;VAP
+Cholesterol.in LDL;SCnc;Pt;Ser/Plas;Qn;Calculated
+Cholesterol.in LDL;SCnc;Pt;Ser/Plas;Qn;Direct assay
+Oxygen;PPres;Pt;Bld;Qn;
+Oxygen;PPres;Pt;BldMV;Qn;
+Oxygen;PPres;Pt;BldA;Qn;
+Oxygen;PPres;Pt;BldC;Qn;
+Oxygen;PPres;Pt;BldV;Qn;
+Oxygen;PPres;Pt;BldC;Qn;Transcutaneous O2 monitor
+C reactive protein;MCnc;Pt;Bld;Qn;High sensitivity
+C reactive protein;MCnc;Pt;Ser/Plas;Qn;
+C reactive protein;MCnc;Pt;Ser/Plas;Qn;High sensitivity
+C reactive protein;MCnc;Pt;BldC;Qn;
+Phosphate;SCnc;Pt;Bld;Qn;
+Phosphate;MCnc;Pt;Bld;Qn;
+Phosphate;SCnc;Pt;Ser/Plas;Qn;
+Phosphate;MCnc;Pt;Ser/Plas;Qn;
+Thyroxine.free;SCnc;Pt;Ser/Plas;Qn;
+Thyroxine.free;MCnc;Pt;Ser/Plas;Qn;
+Thyroxine.free;MCnc;Pt;Ser/Plas;Qn;Dialysis
+Thyroxine.free;MCnc;Pt;Ser/Plas;Qn;IA
+Thyroxine.free;SCnc;Pt;Ser/Plas;Qn;Dialysis
+Thyroxine.free;SCnc;Pt;Ser/Plas;Qn;IA
+Fibrinogen;MCnc;Pt;PPP;Qn;Coag
+Granulocytes;NCnc;Pt;Bld;Qn;
+Granulocytes/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Granulocytes/100 leukocytes;NFr;Pt;Bld;Qn;
+Granulocytes;NCnc;Pt;Bld;Qn;Automated count
+Granulocytes;NCnc;Pt;Bld;Qn;Manual count
+Triiodothyronine.free;SCnc;Pt;Ser/Plas;Qn;
+Triiodothyronine.free;MCnc;Pt;Ser/Plas;Qn;Dialysis
+Triiodothyronine.free;MCnc;Pt;Ser/Plas;Qn;
+Triiodothyronine.free;MCnc;Pt;Ser/Plas;Qn;IA
+Triiodothyronine.free;SCnc;Pt;Ser/Plas;Qn;IA
+Triglyceride;SCnc;Pt;Bld;Qn;
+Triglyceride;MCnc;Pt;Bld;Qn;
+Triglyceride;SCnc;Pt;Ser/Plas;Qn;
+Triglyceride;MCnc;Pt;Ser/Plas;Qn;Calculated
+Triglyceride;MCnc;Pt;Ser/Plas;Qn;
+Carboxyhemoglobin/Hemoglobin.total;MFr;Pt;Bld;Qn;
+Carboxyhemoglobin/Hemoglobin.total;MFr;Pt;BldA;Qn;
+Carboxyhemoglobin/Hemoglobin.total;MFr;Pt;BldC;Qn;
+Carboxyhemoglobin/Hemoglobin.total;MFr;Pt;BldV;Qn;
+Carboxyhemoglobin/Hemoglobin.total;MFr;Pt;BldMV;Qn;
+Carboxyhemoglobin/Hemoglobin.total;MFr;Pt;BldA;Qn;Pulse oximetry
+Nitrite;PrThr;Pt;Urine;Ord;
+Nitrite;PrThr;Pt;Urine;Ord;Test strip.automated
+Nitrite;PrThr;Pt;Urine;Ord;Test strip
+Creatinine;SCnc;Pt;Urine;Qn;
+Creatinine;MCnc;Pt;Urine;Qn;
+Creatinine;MCnc;Pt;Urine;Qn;Test strip
+Creatinine;SCnc;Pt;Urine;Qn;Test strip
+Oxygen inhaled;VFr;Pt;Inhl gas;Qn;
+Methemoglobin/Hemoglobin.total;MFr;Pt;Bld;Qn;
+Methemoglobin/Hemoglobin.total;MFr;Pt;BldA;Qn;
+Methemoglobin/Hemoglobin.total;MFr;Pt;BldC;Qn;
+Methemoglobin/Hemoglobin.total;MFr;Pt;BldV;Qn;
+Methemoglobin/Hemoglobin.total;MFr;Pt;BldMV;Qn;
+Cholesterol;SCnc;Pt;Ser/Plas;Qn;
+Cholesterol;MCnc;Pt;Ser/Plas;Qn;
+Acid phosphatase;CCnc;Pt;Bld;Qn;
+Acid phosphatase;CCnc;Pt;Bld;Qn;Tartrate inhibited
+Acid phosphatase;CCnc;Pt;Ser/Plas;Qn;
+Cholinesterase;CCnc;Pt;Bld;Qn;
+Cholinesterase;CCnc;Pt;Ser/Plas;Qn;
+Coagulation thrombin induced;Time;Pt;PPP;Qn;Coag
+pH;LsCnc;Pt;Urine;Qn;
+pH;LsCnc;Pt;Urine;Qn;Test strip.automated
+pH;LsCnc;Pt;Urine;Qn;Test strip
+Cholesterol.in HDL;SCnc;Pt;Ser/Plas;Qn;
+Cholesterol.in HDL;MCnc;Pt;Ser/Plas;Qn;
+Cholesterol.in HDL;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Neutrophils.band form;NCnc;Pt;Bld;Qn;
+Neutrophils.band form/100 leukocytes;NFr;Pt;Bld;Qn;
+Neutrophils.band form/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Neutrophils.band form/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Neutrophils.band form;NCnc;Pt;Bld;Qn;Automated count
+Neutrophils.band form;NCnc;Pt;Bld;Qn;Manual count
+Ferritin;SCnc;Pt;Ser/Plas;Qn;
+Ferritin;MCnc;Pt;Ser/Plas;Qn;IA
+Ferritin;MCnc;Pt;Ser/Plas;Qn;
+Ferritin;MCnc;Pt;Bld;Qn;
+Antithrombin actual/Normal;RelCCnc;Pt;PPP;Qn;Chromo
+Troponin T.cardiac;MCnc;Pt;Bld;Qn;
+Troponin T.cardiac;MCnc;Pt;BldV;Qn;
+Troponin T.cardiac;MCnc;Pt;Ser/Plas;Qn;
+Troponin T.cardiac;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 5 ng/L
+Procalcitonin;MCnc;Pt;Ser/Plas;Qn;
+Procalcitonin;MCnc;Pt;Ser/Plas;Qn;IA
+Lymphocytes.variant;NCnc;Pt;Bld;Qn;
+Lymphocytes.variant/100 leukocytes;NFr;Pt;Bld;Qn;
+Lymphocytes.variant/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Lymphocytes.variant/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Lymphocytes.variant;NCnc;Pt;Bld;Qn;Automated count
+Lymphocytes.variant;NCnc;Pt;Bld;Qn;Manual count
+Creatine kinase.MB;CCnc;Pt;Ser/Plas;Qn;
+Creatine kinase.MB;CCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Natriuretic peptide.B prohormone N-Terminal;SCnc;Pt;Ser/Plas;Qn;
+Natriuretic peptide.B prohormone N-Terminal;MCnc;Pt;Ser/Plas;Qn;
+Natriuretic peptide.B prohormone N-Terminal;MCnc;Pt;Ser/Plas;Qn;IA
+Natriuretic peptide.B prohormone N-Terminal;SCnc;Pt;Ser/Plas;Qn;IA
+Natriuretic peptide.B prohormone N-Terminal;MCnc;Pt;Bld;Qn;IA
+Iron;SCnc;Pt;Ser/Plas;Qn;
+Iron;MCnc;Pt;Ser/Plas;Qn;
+Protein;MCnc;Pt;Urine;Qn;
+Protein;MCnc;Pt;Urine;Qn;Test strip.automated
+Protein;MCnc;Pt;Urine;Qn;Test strip
+Ketones;SCnc;Pt;Urine;Qn;Test strip
+Ketones;MCnc;Pt;Urine;Qn;
+Ketones;MCnc;Pt;Urine;Qn;Test strip.automated
+Ketones;MCnc;Pt;Urine;Qn;Test strip
+Ketones;SCnc;Pt;Urine;Qn;Test strip.automated
+Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;
+Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;Calculated
+Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;HPLC
+Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;Electrophoresis
+Hemoglobin A1c/Hemoglobin.total;MFr;Pt;Bld;Qn;JDS/JSCC
+Specific gravity;Rden;Pt;Urine;Qn;
+Specific gravity;Rden;Pt;Urine;Qn;Refractometry.automated
+Specific gravity;Rden;Pt;Urine;Qn;Test strip.automated
+Specific gravity;Rden;Pt;Urine;Qn;Refractometry
+Specific gravity;Rden;Pt;Urine;Qn;Test strip
+Calcidiol;SCnc;Pt;Ser/Plas;Qn;
+Calcidiol;MCnc;Pt;Ser/Plas;Qn;
+Amylase;CCnc;Pt;Bld;Qn;
+Amylase;CCnc;Pt;Ser/Plas;Qn;
+Beta 2 globulin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Beta 2 globulin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Beta 1 globulin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Beta 1 globulin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Neutrophils.segmented;NCnc;Pt;Bld;Qn;
+Neutrophils.segmented/100 leukocytes;NFr;Pt;Bld;Qn;
+Neutrophils.segmented/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Neutrophils.segmented/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Neutrophils.segmented;NCnc;Pt;Bld;Qn;Manual count
+Albumin;MCnc;Pt;Bld;Qn;BCP
+Albumin;MCnc;Pt;Ser/Plas;Qn;
+Albumin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Albumin;MCnc;Pt;Ser/Plas;Qn;BCG
+Albumin;MCnc;Pt;Ser/Plas;Qn;BCP
+Albumin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Albumin/Protein.total;MFr;Pt;Ser/Plas;Qn;
+Glutamate dehydrogenase;CCnc;Pt;Ser/Plas;Qn;
+Alpha 1 globulin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Alpha 1 globulin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Alpha 2 globulin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Alpha 2 globulin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Beta globulin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Beta globulin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Normoblasts;NCnc;Pt;Bld;Qn;
+Normoblasts/100 leukocytes;NFr;Pt;Bld;Qn;
+Gamma globulin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Gamma globulin/Protein.total;MFr;Pt;Ser/Plas;Qn;Electrophoresis
+Osmolality;Osmol;Pt;Ser/Plas;Qn;
+Osmolality;Osmol;Pt;Ser/Plas;Qn;Calculated
+Reticulocytes/100 erythrocytes;NFr;Pt;Bld;Qn;
+Reticulocytes/100 erythrocytes;NFr;Pt;Bld;Qn;Automated count
+Reticulocytes/100 erythrocytes;NFr;Pt;Bld;Qn;Manual
+Carcinoembryonic Ag;SCnc;Pt;Ser/Plas;Qn;
+Carcinoembryonic Ag;MCnc;Pt;Ser/Plas;Qn;
+Carcinoembryonic Ag;MCnc;Pt;Ser/Plas;Qn;IA
+Cortisol;SCnc;Pt;Ser/Plas;Qn;
+Cortisol;MCnc;Pt;Ser/Plas;Qn;
+Cortisol;MCnc;Pt;Ser/Plas;Qn;IA
+Cortisol;SCnc;Pt;Ser/Plas;Qn;IA
+Albumin;SCnc;Pt;Urine;Qn;Detection limit <= 3.0 mg/L
+Albumin;MCnc;Pt;Urine;Qn;Detection limit <= 20 mg/L test strip
+Albumin;MCnc;Pt;Urine;Qn;Detection limit <= 20 mg/L
+Albumin;MCnc;Pt;Urine;Qn;
+Albumin;MCnc;Pt;Urine;Qn;Detection limit <= 1.0 mg/L
+Albumin;MCnc;Pt;Urine;Qn;Electrophoresis
+Albumin/Protein.total;MFr;Pt;Urine;Qn;Electrophoresis
+Cystatin C;MCnc;Pt;Ser/Plas;Qn;
+Hemoglobin;PrThr;Pt;Urine;Ord;
+Hemoglobin;PrThr;Pt;Urine;Ord;Test strip.automated
+Hemoglobin;PrThr;Pt;Urine;Ord;Test strip
+Cobalamins;SCnc;Pt;Ser/Plas;Qn;
+Cobalamins;MCnc;Pt;Ser/Plas;Qn;
+Cobalamins;MCnc;Pt;Bld;Qn;
+IgM;SCnc;Pt;Ser/Plas;Qn;
+IgM;MCnc;Pt;Ser/Plas;Qn;
+IgG;SCnc;Pt;Ser/Plas;Qn;
+IgG;MCnc;Pt;Ser/Plas;Qn;
+Troponin I.cardiac;MCnc;Pt;Bld;Qn;
+Troponin I.cardiac;MCnc;Pt;Ser/Plas;Qn;
+Troponin I.cardiac;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 0.01 ng/mL
+Troponin I.cardiac;MCnc;Pt;Ser/Plas;Qn;High sensitivity
+Folate;SCnc;Pt;Bld;Qn;
+Folate;MCnc;Pt;Bld;Qn;
+Folate;SCnc;Pt;Ser/Plas;Qn;
+Folate;MCnc;Pt;Ser/Plas;Qn;
+Transferrin;SCnc;Pt;Ser/Plas;Qn;
+Transferrin;MCnc;Pt;Ser/Plas;Qn;
+Lutropin;ACnc;Pt;Ser/Plas;Qn;
+Lutropin;ACnc;Pt;Ser/Plas;Qn;1st IRP
+Lutropin;ACnc;Pt;Ser/Plas;Qn;IA
+Myoglobin;SCnc;Pt;Ser/Plas;Qn;
+Myoglobin;MCnc;Pt;Ser/Plas;Qn;
+Myoglobin;MCnc;Pt;Ser/Plas;Qn;IA
+Myoglobin;MCnc;Pt;Bld;Qn;
+IgA;SCnc;Pt;Ser/Plas;Qn;
+IgA;MCnc;Pt;Ser/Plas;Qn;
+Prostate specific Ag;SCnc;Pt;Ser/Plas;Qn;
+Prostate specific Ag;MCnc;Pt;Ser/Plas;Qn;
+Prostate specific Ag;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 0.01 ng/mL
+Prostate specific Ag;MCnc;Pt;Ser/Plas;Qn;IA
+Cholesterol.in LDL/Cholesterol.in HDL;MRto;Pt;Ser/Plas;Qn;
+Glucose;PrThr;Pt;Urine;Ord;
+Glucose;PrThr;Pt;Urine;Ord;Test strip
+Glucose;PrThr;Pt;Urine;Ord;Test strip.automated
+Vancomycin^trough;SCnc;Pt;Ser/Plas;Qn;
+Vancomycin^trough;MCnc;Pt;Ser/Plas;Qn;
+Bilirubin;PrThr;Pt;Urine;Ord;
+Bilirubin;PrThr;Pt;Urine;Ord;Test strip.automated
+Bilirubin;PrThr;Pt;Urine;Ord;Test strip
+Bilirubin;PrThr;Pt;Urine;Ord;Confirm
+Ketones;PrThr;Pt;Urine;Ord;
+Ketones;PrThr;Pt;Urine;Ord;Test strip
+Ketones;PrThr;Pt;Urine;Ord;Test strip.automated
+Protein;PrThr;Pt;Urine;Ord;
+Protein;PrThr;Pt;Urine;Ord;Test strip
+Protein;PrThr;Pt;Urine;Ord;SSA
+Protein;PrThr;Pt;Urine;Ord;Test strip.automated
+Rheumatoid factor;ACnc;Pt;Ser/Plas;Qn;
+Leukocytes;Naric;Pt;Urine sed;Qn;Automated count
+Parathyrin.intact;SCnc;Pt;Ser/Plas;Qn;
+Parathyrin.intact;MCnc;Pt;Ser/Plas;Qn;
+Interleukin 6;MCnc;Pt;Ser/Plas;Qn;
+Bacteria;Naric;Pt;Urine sed;Qn;Automated count
+Estradiol;SCnc;Pt;Ser/Plas;Qn;
+Estradiol;MCnc;Pt;Ser/Plas;Qn;
+Estradiol;MCnc;Pt;Ser/Plas;Qn;High sensitivity
+Estradiol;MCnc;Pt;Ser/Plas;Qn;IA
+Estradiol;SCnc;Pt;Ser/Plas;Qn;High sensitivity
+Estradiol;SCnc;Pt;Ser/Plas;Qn;IA
+Erythrocytes;Naric;Pt;Urine sed;Qn;Automated count
+Complement C3;MCnc;Pt;Ser/Plas;Qn;
+Complement C4;SCnc;Pt;Ser/Plas;Qn;
+Complement C4;MCnc;Pt;Ser/Plas;Qn;
+Epithelial cells;Naric;Pt;Urine sed;Qn;Automated count
+Cells.CD3+CD8+;NCnc;Pt;Bld;Qn;
+Cells.CD3+CD8+/100 cells;NFr;Pt;Bld;Qn;
+Cells.CD3+CD4+;NCnc;Pt;Bld;Qn;
+Cells.CD3+CD4+/100 cells;NFr;Pt;Bld;Qn;
+Cells.CD3;NCnc;Pt;Bld;Qn;
+Cells.CD3/100 cells;NFr;Pt;Bld;Qn;
+Follitropin;ACnc;Pt;Ser/Plas;Qn;
+Follitropin;ACnc;Pt;Ser/Plas;Qn;2nd IRP
+Follitropin;ACnc;Pt;Ser/Plas;Qn;IA
+Lipoprotein (little a);SCnc;Pt;Ser/Plas;Qn;
+Lipoprotein (little a);MCnc;Pt;Ser/Plas;Qn;
+Erythrocytes;NCnc;Pt;Urine;Qn;
+Erythrocytes;NCnc;Pt;Urine;Qn;Test strip
+Erythrocytes;NCnc;Pt;Urine;Qn;Test strip.automated
+Erythrocytes;NCnc;Pt;Urine;Qn;Automated count
+Erythrocytes;NCnc;Pt;Urine;Qn;Manual count
+Epithelial cells.non-squamous;Naric;Pt;Urine sed;Qn;Automated count
+Bilirubin.glucuronidated+Bilirubin.albumin bound;SCnc;Pt;Ser/Plas;Qn;
+Bilirubin.glucuronidated+Bilirubin.albumin bound;MCnc;Pt;Ser/Plas;Qn;
+Haptoglobin;SCnc;Pt;Ser/Plas;Qn;
+Haptoglobin;MCnc;Pt;Ser/Plas;Qn;
+Haptoglobin;MCnc;Pt;Ser/Plas;Qn;Electrophoresis
+Haptoglobin;MCnc;Pt;Ser/Plas;Qn;Nephelometry
+Thyroglobulin Ab;ACnc;Pt;Ser/Plas;Qn;
+Thyroglobulin Ab;ACnc;Pt;Ser/Plas;Qn;IA
+Neutrophil cytoplasmic Ab.perinuclear;Titr;Pt;Ser;Qn;
+Neutrophil cytoplasmic Ab.perinuclear;Titr;Pt;Ser;Qn;IF
+Fibrin D-dimer FEU;MCnc;Pt;Bld;Qn;IA
+Fibrin D-dimer FEU;MCnc;Pt;PPP;Qn;
+Fibrin D-dimer FEU;MCnc;Pt;PPP;Qn;IA
+Neutrophil cytoplasmic Ab.classic;Titr;Pt;Ser;Qn;
+Neutrophil cytoplasmic Ab.classic;Titr;Pt;Ser;Qn;IF
+Natriuretic peptide.B;SCnc;Pt;Ser/Plas;Qn;
+Natriuretic peptide.B;MCnc;Pt;Ser/Plas;Qn;
+Natriuretic peptide.B;MCnc;Pt;Bld;Qn;
+Interpretation;Imp;Pt;Ser/Plas;Nom;Immunofixation
+Leukocytes;NCnc;Pt;Urine;Qn;
+Leukocytes;NCnc;Pt;Urine;Qn;Test strip
+Leukocytes;NCnc;Pt;Urine;Qn;Manual count
+Leukocytes;NCnc;Pt;Urine;Qn;Automated count
+Leukocytes;NCnc;Pt;Urine;Qn;Test strip.automated
+Smudge cells;NCnc;Pt;Bld;Qn;
+Smudge cells/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Smudge cells/100 leukocytes;NFr;Pt;Bld;Qn;
+Smudge cells;NCnc;Pt;Bld;Qn;Manual count
+Beta-2-Microglobulin;SCnc;Pt;Ser/Plas;Qn;
+Beta-2-Microglobulin;MCnc;Pt;Ser/Plas;Qn;
+Beta-2-Microglobulin;MCnc;Pt;Ser/Plas;Qn;IA
+Thyroperoxidase Ab;ACnc;Pt;Ser/Plas;Qn;
+Thyroperoxidase Ab;ACnc;Pt;Ser/Plas;Qn;RIA
+Thyroperoxidase Ab;ACnc;Pt;Ser/Plas;Qn;IA
+Lymphocytes.immunoblastic;NCnc;Pt;Bld;Qn;
+Lymphocytes.immunoblastic/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Lymphocytes.immunoblastic/100 leukocytes;NFr;Pt;Bld;Qn;
+Lymphocytes.immunoblastic;NCnc;Pt;Bld;Qn;Manual count
+Alpha-1-Microglobulin;SCnc;Pt;Urine;Qn;
+Alpha-1-Microglobulin;MCnc;Pt;Urine;Qn;
+Angiotensin converting enzyme;CCnc;Pt;Bld;Qn;
+Angiotensin converting enzyme;CCnc;Pt;Ser/Plas;Qn;
+Immunoglobulin light chains.kappa.free;MCnc;Pt;Ser;Qn;
+Immunoglobulin light chains.kappa.free;MCnc;Pt;Ser;Qn;Nephelometry
+Thyrotropin receptor Ab;ACnc;Pt;Ser;Qn;
+Thyrotropin receptor Ab;ACnc;Pt;Ser;Qn;IA
+Hemoglobin.free;SCnc;Pt;Plas;Qn;
+Hemoglobin.free;MCnc;Pt;Plas;Qn;
+Base excess^^standard;SCnc;Pt;BldA;Qn;Calculated
+Protein/Creatinine;MRto;Pt;Urine;Qn;
+Testosterone;SCnc;Pt;Ser/Plas;Qn;
+Testosterone;MCnc;Pt;Ser/Plas;Qn;
+Testosterone;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 1.0 ng/dL
+Testosterone;MCnc;Pt;Ser/Plas;Qn;IA
+Testosterone;SCnc;Pt;Ser/Plas;Qn;Detection limit <= 3.47 pmol/L
+Testosterone;SCnc;Pt;Ser/Plas;Qn;IA
+S100 calcium binding protein B;MCnc;Pt;Ser;Qn;
+Ethanol;SCnc;Pt;Bld;Qn;
+Ethanol;MCnc;Pt;Bld;Qn;
+Ethanol;MCnc;Pt;Bld;Qn;GC
+Ethanol;SCnc;Pt;Ser/Plas;Qn;
+Ethanol;MCnc;Pt;Ser/Plas;Qn;
+Ethanol;MCnc;Pt;Ser/Plas;Qn;GC
+IgE;ACnc;Pt;Ser/Plas;Qn;
+IgE;ACnc;Pt;Ser/Plas;Qn;IA
+Valproate;SCnc;Pt;Ser/Plas;Qn;
+Valproate;MCnc;Pt;Ser/Plas;Qn;
+Smith extractable nuclear Ab;ACnc;Pt;Ser;Qn;
+Smith extractable nuclear Ab;ACnc;Pt;Ser;Qn;IF
+Smith extractable nuclear Ab;ACnc;Pt;Ser;Qn;IA
+Levetiracetam;SCnc;Pt;Ser/Plas;Qn;
+Levetiracetam;MCnc;Pt;Ser/Plas;Qn;
+Prolactin;ACnc;Pt;Ser/Plas;Qn;
+Prolactin;ACnc;Pt;Ser/Plas;Qn;3rd IS
+Prolactin;ACnc;Pt;Ser/Plas;Qn;IA
+Bicarbonate^^standard;SCnc;Pt;BldA;Qn;
+Anisocytosis;PrThr;Pt;Bld;Ord;
+Anisocytosis;PrThr;Pt;Bld;Ord;Automated count
+Anisocytosis;PrThr;Pt;Bld;Ord;Microscopy.light
+Osmolality;Osmol;Pt;Urine;Qn;
+Osmolality;Osmol;Pt;Urine;Qn;Calculated
+Cancer Ag 19-9;ACnc;Pt;Ser/Plas;Qn;
+Cancer Ag 19-9;ACnc;Pt;Ser/Plas;Qn;IA
+Fibrin D-dimer DDU;MCnc;Pt;PPP;Qn;
+Fibrin D-dimer DDU;MCnc;Pt;PPP;Qn;IA
+IgG;SCnc;Pt;Urine;Qn;
+IgG;MCnc;Pt;Urine;Qn;
+IgG;MCnc;Pt;Urine;Qn;Electrophoresis
+IgG;MCnc;Pt;Urine;Qn;IA
+Basophils+Eosinophils+Monocytes;NCnc;Pt;Bld;Qn;
+Basophils+Eosinophils+Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;Automated count
+Basophils+Eosinophils+Monocytes/100 leukocytes;NFr;Pt;Bld;Qn;
+Basophils+Eosinophils+Monocytes;NCnc;Pt;Bld;Qn;Automated count
+Osteocalcin;SCnc;Pt;Ser/Plas;Qn;
+Osteocalcin;MCnc;Pt;Ser/Plas;Qn;
+Hemoglobin A1c/Hemoglobin.total;SFr;Pt;Bld;Qn;IFCC
+Protein;MCnc;Pt;CSF;Qn;
+Leukocytes;PrThr;Pt;Urine;Ord;
+Leukocytes;PrThr;Pt;Urine;Ord;Automated
+Leukocytes;PrThr;Pt;Urine;Ord;Visual
+Reticulocytes;NCnc;Pt;Bld;Qn;
+Reticulocytes;NCnc;Pt;Bld;Qn;Manual
+Reticulocytes;NCnc;Pt;Bld;Qn;Calculated
+Reticulocytes;NCnc;Pt;Bld;Qn;Automated count
+Cyclosporine;MCnc;Pt;Bld;Qn;
+Cyclosporine;MCnc;Pt;Bld;Qn;IA
+Cyclosporine;MCnc;Pt;Bld;Qn;LC/MS/MS
+Cyclosporine;MCnc;Pt;Plas;Qn;
+Cyclosporine;MCnc;Pt;Ser;Qn;
+Cyclosporine;SCnc;Pt;Bld;Qn;IA
+Cyclosporine;SCnc;Pt;Ser;Qn;
+Ammonia;SCnc;Pt;Bld;Qn;
+Ammonia;MCnc;Pt;Bld;Qn;
+Ammonia;SCnc;Pt;Plas;Qn;
+Ammonia;SCnc;Pt;Ser;Qn;
+Ammonia;MCnc;Pt;Plas;Qn;
+Ammonia;MCnc;Pt;Ser;Qn;
+Cytomegalovirus Ab.IgG;ACnc;Pt;Ser/Plas;Qn;
+Cytomegalovirus Ab.IgG;ACnc;Pt;Ser/Plas;Qn;IF
+Cytomegalovirus Ab.IgG;ACnc;Pt;Ser/Plas;Qn;IA
+HIV 1+2 Ab+HIV1 p24 Ag;PrThr;Pt;Ser/Plas;Ord;IA
+Bilirubin.non-glucuronidated;SCnc;Pt;Ser/Plas;Qn;
+Bilirubin.non-glucuronidated;MCnc;Pt;Ser/Plas;Qn;
+Digitoxin;SCnc;Pt;Ser/Plas;Qn;
+Digitoxin;MCnc;Pt;Ser/Plas;Qn;
+Cytomegalovirus Ab.IgM;PrThr;Pt;Ser/Plas;Ord;
+Cytomegalovirus Ab.IgM;PrThr;Pt;Ser/Plas;Ord;IA
+Cytomegalovirus Ab.IgM;PrThr;Pt;Ser/Plas;Ord;IF
+Lactate;SCnc;Pt;CSF;Qn;
+Lactate;MCnc;Pt;CSF;Qn;
+Erythrocytes;NCnc;Pt;CSF;Qn;
+Erythrocytes;NCnc;Pt;CSF;Qn;Automated count
+Erythrocytes;NCnc;Pt;CSF;Qn;Manual count
+Leukocytes;NCnc;Pt;CSF;Qn;
+Leukocytes;NCnc;Pt;CSF;Qn;Manual count
+Leukocytes;NCnc;Pt;CSF;Qn;Automated count
+Coagulation factor VIII activity actual/Normal;RelTime;Pt;PPP;Qn;Coag
+Creatinine renal clearance;VRat;24H;Urine+Ser/Plas;Qn;
+Heparin.unfractionated;ACnc;Pt;Bld;Qn;Heparin protamine titration
+Heparin.unfractionated;ACnc;Pt;PPP;Qn;Coag
+Heparin.unfractionated;ACnc;Pt;PPP;Qn;Chromo
+Heparin.unfractionated;ACnc;Pt;PPP;Qn;
+Zinc;SCnc;Pt;Ser/Plas;Qn;
+Zinc;MCnc;Pt;Ser/Plas;Qn;
+Zinc;MCnc;Pt;Bld;Qn;
+Homocysteine;SCnc;Pt;Ser/Plas;Qn;
+Homocysteine;MCnc;Pt;Ser/Plas;Qn;
+Platelets.reticulated/100 platelets;NFr;Pt;Bld;Qn;
+Platelets.reticulated/100 platelets;NFr;Pt;Bld;Qn;Automated count
+Cells.CD3-CD16+CD56+;NCnc;Pt;Bld;Qn;
+Cells.CD3-CD16+CD56+/100 cells;NFr;Pt;Bld;Qn;
+Pyridoxal phosphate;SCnc;Pt;Bld;Qn;
+Pyridoxal phosphate;SCnc;Pt;Ser/Plas;Qn;
+Pyridoxal phosphate;MCnc;Pt;Ser/Plas;Qn;
+Vancomycin;SCnc;Pt;Ser/Plas;Qn;
+Vancomycin;MCnc;Pt;Ser/Plas;Qn;
+Nuclear Ab;Titr;Pt;Ser;Qn;
+Nuclear Ab;Titr;Pt;Ser;Qn;IF rat liver substrate
+Nuclear Ab;Titr;Pt;Ser;Qn;Hep2 substrate
+Nuclear Ab;Titr;Pt;Ser;Qn;IA
+Nuclear Ab;Titr;Pt;Ser;Qn;IF
+Metamyelocytes;NCnc;Pt;Bld;Qn;
+Metamyelocytes/100 leukocytes;NFr;Pt;Bld;Qn;
+Metamyelocytes/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Metamyelocytes;NCnc;Pt;Bld;Qn;Manual count
+Glucose;SCnc;Pt;CSF;Qn;
+Glucose;MCnc;Pt;CSF;Qn;
+Calcium;SCnc;Pt;Urine;Qn;
+Calcium;MCnc;Pt;Urine;Qn;
+Tacrolimus;MCnc;Pt;Bld;Qn;
+Tacrolimus;MCnc;Pt;Bld;Qn;IA
+Tacrolimus;MCnc;Pt;Bld;Qn;LC/MS/MS
+Tacrolimus;MCnc;Pt;Ser/Plas;Qn;
+Tacrolimus;SCnc;Pt;Bld;Qn;IA
+Cells.CD3+CD4+/Cells.CD3+CD8+;NRto;Pt;Bld;Qn;
+Poikilocytosis;PrThr;Pt;Bld;Ord;Microscopy.light
+Basophils;NCnc;Pt;Body fld;Qn;
+Basophils/100 leukocytes;NFr;Pt;Body fld;Qn;Manual count
+Basophils/100 leukocytes;NFr;Pt;Body fld;Qn;
+Basophils;NCnc;Pt;Body fld;Qn;Manual count
+Phosphate;SCnc;Pt;Urine;Qn;
+Phosphate;MCnc;Pt;Urine;Qn;
+Eosinophils;NCnc;Pt;Body fld;Qn;
+Eosinophils/100 leukocytes;NFr;Pt;Body fld;Qn;Manual count
+Eosinophils/100 leukocytes;NFr;Pt;Body fld;Qn;
+Eosinophils;NCnc;Pt;Body fld;Qn;Manual count
+SCL-70 extractable nuclear Ab;ACnc;Pt;Ser;Qn;
+SCL-70 extractable nuclear Ab;ACnc;Pt;Ser;Qn;IA
+SCL-70 extractable nuclear Ab;ACnc;Pt;Ser;Qn;Line blot
+Choriogonadotropin.beta subunit;ACnc;Pt;Ser/Plas;Qn;
+Choriogonadotropin.beta subunit;ACnc;Pt;Ser/Plas;Qn;EIA.3rd IS
+Hepatitis B virus surface Ag;ACnc;Pt;Ser/Plas;Qn;IA
+Iron saturation;MFr;Pt;Ser/Plas;Qn;
+Sodium;SCnc;Pt;Urine;Qn;
+Lymphocytes;NCnc;Pt;Body fld;Qn;
+Lymphocytes/100 leukocytes;NFr;Pt;Body fld;Qn;
+Lymphocytes/100 leukocytes;NFr;Pt;Body fld;Qn;Manual count
+Lymphocytes;NCnc;Pt;Body fld;Qn;Manual count
+Myelocytes;NCnc;Pt;Bld;Qn;
+Myelocytes/100 leukocytes;NFr;Pt;Bld;Qn;
+Myelocytes/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Myelocytes;NCnc;Pt;Bld;Qn;Manual count
+Lymphocytes.abnormal;NCnc;Pt;Bld;Qn;
+Lymphocytes.abnormal/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Lymphocytes.abnormal/100 leukocytes;NFr;Pt;Bld;Qn;
+Lymphocytes.abnormal;NCnc;Pt;Bld;Qn;Manual count
+Lamotrigine;SCnc;Pt;Ser/Plas;Qn;
+Lamotrigine;MCnc;Pt;Ser/Plas;Qn;Screen
+Lamotrigine;MCnc;Pt;Ser/Plas;Qn;
+Tumor necrosis factor.alpha;SCnc;Pt;Ser/Plas;Qn;
+Tumor necrosis factor.alpha;MCnc;Pt;Ser/Plas;Qn;
+Protein;MCnc;Pt;Body fld;Qn;
+Corticotropin;SCnc;Pt;Plas;Qn;
+Corticotropin;MCnc;Pt;Plas;Qn;
+Corticotropin;MCnc;Pt;Plas;Qn;RIA
+Mitochondria Ab;Titr;Pt;Ser;Qn;
+Mitochondria Ab;Titr;Pt;Ser;Qn;IF
+Blasts;NCnc;Pt;Bld;Qn;
+Blasts/100 leukocytes;NFr;Pt;Bld;Qn;
+Blasts/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Blasts;NCnc;Pt;Bld;Qn;Manual count
+Mononuclear cells;NCnc;Pt;Body fld;Qn;
+Mononuclear cells/100 leukocytes;NFr;Pt;Body fld;Qn;
+Mononuclear cells/100 leukocytes;NFr;Pt;Body fld;Qn;Automated count
+Mononuclear cells/100 leukocytes;NFr;Pt;Body fld;Qn;Manual count
+Mononuclear cells;NCnc;Pt;Body fld;Qn;Manual count
+Mononuclear cells;NCnc;Pt;Body fld;Qn;Automated count
+Hepatitis A virus Ab.IgM;PrThr;Pt;Ser/Plas;Ord;IA
+Interleukin 2 receptor;ACnc;Pt;Ser/Plas;Qn;
+Thyroglobulin;SCnc;Pt;Ser/Plas;Qn;
+Thyroglobulin;MCnc;Pt;Ser/Plas;Qn;
+Leukocytes;NCnc;Pt;Body fld;Qn;
+Leukocytes;NCnc;Pt;Body fld;Qn;Automated count
+Leukocytes;NCnc;Pt;Body fld;Qn;Manual count
+Erythrocytes;NCnc;Pt;Body fld;Qn;
+Erythrocytes;NCnc;Pt;Body fld;Qn;Automated count
+Erythrocytes;NCnc;Pt;Body fld;Qn;Manual count
+HIV 1 RNA;NCnc;Pt;Ser/Plas;Qn;Probe.amp.tar
+Tissue transglutaminase Ab.IgA;ACnc;Pt;Ser;Qn;
+Tissue transglutaminase Ab.IgA;ACnc;Pt;Ser;Qn;IA
+Progesterone;SCnc;Pt;Ser/Plas;Qn;
+Progesterone;MCnc;Pt;Ser/Plas;Qn;
+Progesterone;MCnc;Pt;Ser/Plas;Qn;IA
+Progesterone;SCnc;Pt;Ser/Plas;Qn;IA
+Protein S.free Ag actual/Normal;RelMCnc;Pt;PPP;Qn;IA
+Gentamicin^trough;SCnc;Pt;Ser/Plas;Qn;
+Gentamicin^trough;MCnc;Pt;Ser/Plas;Qn;
+Lithium;SCnc;Pt;Bld;Qn;
+Lithium;SCnc;Pt;Ser/Plas;Qn;
+Lithium;MCnc;Pt;Ser/Plas;Qn;
+Monocytes;NCnc;Pt;CSF;Qn;
+Monocytes/100 leukocytes;NFr;Pt;CSF;Qn;Manual count
+Monocytes/100 leukocytes;NFr;Pt;CSF;Qn;
+Monocytes;NCnc;Pt;CSF;Qn;Manual count
+Alpha-2-Macroglobulin;MCnc;Pt;Ser/Plas;Qn;
+Alpha-2-Macroglobulin/Protein.total;MFr;Pt;Ser/Plas;Qn;
+Albumin/Creatinine;MRto;Pt;Urine;Qn;
+Albumin/Creatinine;MRto;Pt;Urine;Qn;Detection limit <= 20 mg/L
+Mitochondria M2 Ab;PrThr;Pt;Ser;Ord;
+Mitochondria M2 Ab;PrThr;Pt;Ser;Ord;IB
+Mitochondria M2 Ab;PrThr;Pt;Ser;Ord;IA
+Lactate dehydrogenase;CCnc;Pt;Body fld;Qn;
+Lactate dehydrogenase;CCnc;Pt;Body fld;Qn;Reaction: lactate to pyruvate
+Lactate dehydrogenase;CCnc;Pt;Body fld;Qn;Reaction: pyruvate to lactate
+HIV 1+2 Ab;PrThr;Pt;Ser;Ord;
+HIV 1+2 Ab;PrThr;Pt;Ser;Ord;IB
+Hemoglobin;MCnc;Pt;Body fld;Qn;
+Enolase.neuron specific;MCnc;Pt;Ser/Plas;Qn;
+Enolase.neuron specific;MCnc;Pt;Ser/Plas;Qn;RIA
+Enolase.neuron specific;MCnc;Pt;Ser/Plas;Qn;IA
+PM-SCL extractable nuclear Ab;ACnc;Pt;Ser;Qn;
+Epithelial cells.squamous;Naric;Pt;Urine sed;Qn;Automated count
+Thiamine;SCnc;Pt;Bld;Qn;
+Thiamine;MCnc;Pt;Bld;Qn;
+Thiamine;SCnc;Pt;Ser/Plas;Qn;
+Thiamine;MCnc;Pt;Ser/Plas;Qn;
+Polychromasia;PrThr;Pt;Bld;Ord;Microscopy.light
+Insulin-like growth factor-I;SCnc;Pt;Ser/Plas;Qn;
+Insulin-like growth factor-I;MCnc;Pt;Ser/Plas;Qn;
+Insulin-like growth factor-I;MCnc;Pt;Bld;Qn;
+Activated protein C resistance;TRto;Pt;PPP;Qn;Coag
+Immunoglobulin light chains.lambda.free;MCnc;Pt;Ser/Plas;Qn;
+Dehydroepiandrosterone sulfate;SCnc;Pt;Ser/Plas;Qn;
+Dehydroepiandrosterone sulfate;MCnc;Pt;Ser/Plas;Qn;
+Creatinine;SCnc;Pt;Body fld;Qn;
+Creatinine;MCnc;Pt;Body fld;Qn;
+Benzodiazepines;SCnc;Pt;Ser/Plas;Qn;
+Benzodiazepines;MCnc;Pt;Ser/Plas;Qn;
+Benzodiazepines;MCnc;Pt;Ser/Plas;Qn;Screen
+Benzodiazepines;MCnc;Pt;Ser/Plas;Qn;Confirm
+Benzodiazepines;MCnc;Pt;Bld;Qn;Confirm
+Clotting time.extrinsic coagulation system activated;Time;Pt;Bld;Qn;Thromboelastography
+Albumin;SCnc;Pt;CSF;Qn;
+Albumin;MCnc;Pt;CSF;Qn;
+Albumin;MCnc;Pt;CSF;Qn;Electrophoresis
+Albumin/Protein.total;MFr;Pt;CSF;Qn;Electrophoresis
+Beta 2 glycoprotein 1 Ab.IgG;ACnc;Pt;Ser;Qn;
+Phenytoin;SCnc;Pt;Ser/Plas;Qn;
+Phenytoin;MCnc;Pt;Ser/Plas;Qn;Screen
+Phenytoin;MCnc;Pt;Ser/Plas;Qn;
+IgG;SCnc;Pt;CSF;Qn;
+IgG;MCnc;Pt;CSF;Qn;
+IgG/Protein.total;MFr;Pt;CSF;Qn;
+Cyclic citrullinated peptide Ab;ACnc;Pt;Ser;Qn;
+Cyclic citrullinated peptide Ab;ACnc;Pt;Ser;Qn;IA
+Bilirubin.glucuronidated;SCnc;Pt;Ser/Plas;Qn;
+Bilirubin.glucuronidated;MCnc;Pt;Ser/Plas;Qn;
+Choriogonadotropin (pregnancy test);PrThr;Pt;Urine;Ord;
+Choriogonadotropin (pregnancy test);PrThr;Pt;Urine;Ord;IA.rapid
+Maximum clot firmness.extrinsic coagulation system activated;Len;Pt;Bld;Qn;Thromboelastography
+Maximum clot firmness.extrinsic coagulation system activated.platelets inhibited;Len;Pt;Bld;Qn;Thromboelastography
+Holo-transcobalamin II;SCnc;Pt;Ser;Qn;
+Maximum clot firmness.intrinsic coagulation system activated;Len;Pt;Bld;Qn;Thromboelastography
+Clot formation.extrinsic coagulation system activated;Time;Pt;Bld;Qn;Thromboelastography
+Methotrexate;SCnc;Pt;Ser/Plas;Qn;
+Methotrexate;MCnc;Pt;Ser/Plas;Qn;
+Jo-1 extractable nuclear Ab;PrThr;Pt;Ser;Ord;
+Jo-1 extractable nuclear Ab;PrThr;Pt;Ser;Ord;IF
+Jo-1 extractable nuclear Ab;PrThr;Pt;Ser;Ord;Immune diffusion
+Jo-1 extractable nuclear Ab;PrThr;Pt;Ser;Ord;IA
+Jo-1 extractable nuclear Ab;PrThr;Pt;Ser;Ord;IB
+IgA;MCnc;Pt;CSF;Qn;
+Hypochromia;PrThr;Pt;Bld;Ord;
+Hypochromia;PrThr;Pt;Bld;Ord;Automated count
+Hypochromia;PrThr;Pt;Bld;Ord;Microscopy.light
+Complement C1 esterase inhibitor;MCnc;Pt;Ser/Plas;Qn;
+Albumin;MCnc;Pt;Body fld;Qn;
+Albumin/Protein.total;MFr;Pt;Body fld;Qn;Electrophoresis
+Albumin;MCnc;Pt;Body fld;Qn;Electrophoresis
+Albumin;MCnc;Pt;Body fld;Qn;Detection limit <= 1.0 mg/L
+Sample hemolyzed;PrThr;Pt;Ser/Plas;Ord;
+Sample icteric;PrThr;Pt;Ser/Plas;Ord;
+IgM;MCnc;Pt;CSF;Qn;
+Sample lipemic;PrThr;Pt;Ser/Plas;Ord;
+Tricyclic antidepressants;SCnc;Pt;Ser/Plas;Qn;
+Tricyclic antidepressants;MCnc;Pt;Ser/Plas;Qn;
+Testosterone.free;SCnc;Pt;Ser/Plas;Qn;
+Testosterone.free;MCnc;Pt;Ser/Plas;Qn;
+Testosterone.free;MCnc;Pt;Ser/Plas;Qn;Detection limit <= 1.0 ng/dL
+Testosterone.free;SCnc;Pt;Ser/Plas;Qn;RIA
+Testosterone.free;SCnc;Pt;Ser/Plas;Qn;Detection limit <= 3.47 pmol/L
+Hepatitis B virus core Ab.IgM;ACnc;Pt;Ser/Plas;Qn;IA
+DNA double strand Ab;ACnc;Pt;Ser;Qn;
+DNA double strand Ab;ACnc;Pt;Ser;Qn;IA
+DNA double strand Ab;ACnc;Pt;Ser;Qn;RIA
+DNA double strand Ab;ACnc;Pt;Ser;Qn;Farr
+DNA double strand Ab;ACnc;Pt;Ser;Qn;IF
+Prostate specific Ag.free;SCnc;Pt;Ser/Plas;Qn;
+Prostate specific Ag.free;MCnc;Pt;Ser/Plas;Qn;
+Prostate specific Ag.free;MCnc;Pt;Ser/Plas;Qn;IA
+Platelet function.collagen+Epinephrine induced;Time;Pt;Bld;Qn;
+Plasma cell precursor;NCnc;Pt;Bld;Qn;
+Plasma cell precursor/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Plasma cell precursor/100 leukocytes;NFr;Pt;Bld;Qn;
+Plasma cell precursor;NCnc;Pt;Bld;Qn;Manual count
+Aldosterone;SCnc;Pt;Ser/Plas;Qn;
+Aldosterone;MCnc;Pt;Ser/Plas;Qn;
+Aldosterone;MCnc;Pt;Bld;Qn;
+Triacylglycerol lipase;CCnc;Pt;Body fld;Qn;
+Target cells;PrThr;Pt;Bld;Ord;Microscopy.light
+Plasma cells;NCnc;Pt;Bld;Qn;
+Plasma cells/100 leukocytes;NFr;Pt;Bld;Qn;
+Plasma cells/100 leukocytes;NFr;Pt;Bld;Qn;Manual count
+Plasma cells;NCnc;Pt;Bld;Qn;Manual count
+Coagulation tissue factor induced;Time;Pt;Bld;Qn;Coag
+Coagulation tissue factor induced;Time;Pt;PPP;Qn;Coag.saline 1:1
+Coagulation tissue factor induced;Time;Pt;BldC;Qn;Coag
+Coagulation tissue factor induced;Time;Pt;PPP;Qn;Coag
+Platelets.large/Platelets;NFr;Pt;Bld;Qn;Automated count
+Sex hormone binding globulin;SCnc;Pt;Ser/Plas;Qn;
+Sex hormone binding globulin;MCnc;Pt;Ser/Plas;Qn;
+Methadone;SCnc;Pt;Urine;Qn;
+Methadone;MCnc;Pt;Urine;Qn;Confirm
+Methadone;MCnc;Pt;Urine;Qn;
+Methadone;MCnc;Pt;Urine;Qn;Screen
+Urea;SCnc;Pt;Urine;Qn;
+Urea;MCnc;Pt;Urine;Qn;
+Urea nitrogen;SCnc;Pt;Urine;Qn;
+Urea nitrogen;MCnc;Pt;Urine;Qn;
+Streptolysin O Ab;ACnc;Pt;Ser/Plas;Qn;
+Schistocytes;PrThr;Pt;Bld;Ord;Microscopy.light
+Collection duration;Time;*;Urine;Qn;
+Platelet aggregation.adenosine diphosphate induced;ACnc;Pt;Bld;Qn;
+Platelet aggregation.adenosine diphosphate induced;ACnc;Pt;PRP;Qn;
+IgG subclass 4;MCnc;Pt;Ser;Qn;
+Creatine kinase.MB/Creatine kinase.total;Ratio;Pt;Ser/Plas;Qn;
+Hepatitis C virus Ab;PrThr;Pt;Ser/Plas;Ord;IA
+Specimen type;Type;Pt;Specimen;Nom;
+Myeloperoxidase Ab;PrThr;Pt;Ser;Ord;
+Myeloperoxidase Ab;PrThr;Pt;Ser;Ord;IA
+Myeloperoxidase Ab;PrThr;Pt;Ser;Ord;Line blot
