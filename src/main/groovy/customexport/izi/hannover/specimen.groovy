@@ -64,7 +64,7 @@ specimen {
       value = idContainer[PSN]
       type {
         coding {
-          system = "urn:centraxx"
+          system = FhirUrls.System.IdContainerType.BASE_URL
           code = idContainer[ID_CONTAINER_TYPE]?.getAt(CODE)
         }
       }
@@ -80,7 +80,7 @@ specimen {
       value = idSampleQf[PSN]
       type {
         coding {
-          system = "urn:centraxx"
+          system = FhirUrls.System.IdContainerType.BASE_URL
           code = idSampleQf[ID_CONTAINER_TYPE]?.getAt(CODE)
         }
       }
@@ -91,7 +91,7 @@ specimen {
 
   type {
     coding {
-      system = "urn:centraxx"
+      system = FhirUrls.System.Sample.SampleType.BASE_URL
       code = context.source[sample().sampleType().code()]
     }
   }
@@ -106,7 +106,7 @@ specimen {
         value = patIdContainer[PSN]
         type {
           coding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.IdContainerType.BASE_URL
             code = patIdContainer[ID_CONTAINER_TYPE]?.getAt(CODE)
           }
         }
@@ -146,7 +146,7 @@ specimen {
     quantity {
       value = context.source[sample().initialAmount().amount()] as Number
       unit = context.source[sample().initialAmount().unit()]
-      system = "urn:centraxx"
+      system = FhirUrls.System.LaborValue.Unit.BASE_URL
     }
   }
 
@@ -154,27 +154,27 @@ specimen {
     if (context.source[sample().receptable()]) {
       identifier {
         value = context.source[sample().receptable().code()]
-        system = "urn:centraxx"
+        system = FhirUrls.System.Sample.Receptacle.BASE_URL
       }
 
       capacity {
         value = context.source[sample().receptable().size()]
         unit = context.source[sample().restAmount().unit()]
-        system = "urn:centraxx"
+        system = FhirUrls.System.LaborValue.Unit.BASE_URL
       }
     }
 
     specimenQuantity {
       value = context.source[sample().restAmount().amount()] as Number
       unit = context.source[sample().restAmount().unit()]
-      system = "urn:centraxx"
+      system = FhirUrls.System.LaborValue.Unit.BASE_URL
     }
   }
 
   extension {
     url = FhirUrls.Extension.SAMPLE_CATEGORY
     valueCoding {
-      system = "urn:centraxx"
+      system = FhirUrls.System.SampleCategory.BASE_URL
       code = context.source[SAMPLE_CATEGORY]
     }
   }
@@ -214,22 +214,22 @@ specimen {
   // Sample Location
   if (context.source[sample().sampleLocation()]) {
     extension {
-      url = "https://fhir.centraxx.de/extension/sample/sampleLocation"
+      url = FhirUrls.Extension.SAMPLE_LOCATION
       extension {
-        url = "https://fhir.centraxx.de/extension/sample/sampleLocationPath"
+        url = FhirUrls.Extension.SampleLocation.PATH
         valueString = context.source[sample().sampleLocation().locationPath()]
       }
       final Integer xPos = context.source[sample().xPosition()] as Integer
       if (xPos) { // necessary, because groovy interprets 0 to false
         extension {
-          url = "https://fhir.centraxx.de/extension/sample/xPosition"
+          url = FhirUrls.Extension.Sample.X_POSITION
           valueInteger = xPos
         }
       }
       final Integer yPos = context.source[sample().yPosition()] as Integer
       if (yPos) {
         extension {
-          url = "https://fhir.centraxx.de/extension/sample/yPosition"
+          url = FhirUrls.Extension.Sample.Y_POSITION
           valueInteger = yPos
         }
       }
@@ -261,7 +261,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.SPREC_TISSUE_COLLECTION_TYPE
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.TissueCollectionType.BASE_URL
             code = context.source[sample().sprecTissueCollectionType().code()]
           }
         }
@@ -270,7 +270,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.WARM_ISCH_TIME
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.WarmIschTime.BASE_URL
             code = context.source[sample().warmIschTime().code()]
           }
         }
@@ -308,7 +308,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.STOCK_TYPE
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.StockType.BASE_URL
             code = context.source[sample().stockType().code()]
           }
         }
@@ -317,7 +317,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.SPREC_FIXATION_TIME
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.FixationTime.BASE_URL
             code = context.source[sample().sprecFixationTime().code()]
           }
         }
@@ -342,7 +342,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.SPREC_PRIMARY_SAMPLE_CONTAINER
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.PrimarySampleContainer.BASE_URL
             code = context.source[sample().sprecPrimarySampleContainer().code()]
           }
         }
@@ -351,7 +351,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.SPREC_PRE_CENTRIFUGATION_DELAY
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.PreCentrifugationDelay.BASE_URL
             code = context.source[sample().sprecPreCentrifugationDelay().code()]
           }
         }
@@ -370,7 +370,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.SPREC_POST_CENTRIFUGATION_DELAY
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.PostCentrifugationDelay.BASE_URL
             code = context.source[sample().sprecPostCentrifugationDelay().code()]
           }
         }
@@ -389,7 +389,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.STOCK_PROCESSING
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.StockProcessing.BASE_URL
             code = context.source[sample().stockProcessing().code()] as String
           }
         }
@@ -408,7 +408,7 @@ specimen {
         extension {
           url = FhirUrls.Extension.Sprec.SECOND_PROCESSING
           valueCoding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.Sprec.SecondProcessing.BASE_URL
             code = context.source[sample().secondProcessing().code()] as String
           }
         }

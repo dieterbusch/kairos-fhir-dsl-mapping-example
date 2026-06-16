@@ -44,7 +44,7 @@ observation {
 
   code {
     coding {
-      system = "urn:centraxx"
+      system = FhirUrls.System.Finding.LABOR_FINDING_SHORTNAME
       code = context.source[laborMapping().laborFinding().shortName()] as String
     }
   }
@@ -70,7 +70,7 @@ observation {
         value = patIdContainer[PSN]
         type {
           coding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.IdContainerType.BASE_URL
             code = patIdContainer[ID_CONTAINER_TYPE]?.getAt(CODE) as String
           }
         }
@@ -80,7 +80,7 @@ observation {
 
   method {
     coding {
-      system = "urn:centraxx"
+      system = FhirUrls.System.LaborMethod.BASE_URL
       version = context.source[laborMapping().laborFinding().laborMethod().version()]
       code = laborMethodCode == "ITEM_KLINISCHE_DATEN" ? "CIMD_KERNZUSATZDATEN" : "CIMD_ABWEICHUNGEN"
     }
@@ -88,16 +88,14 @@ observation {
 
   context.source[laborMapping().laborFinding().laborFindingLaborValues()].each { final lflv ->
 
-    final def laborValue = lflv[LaborFindingLaborValue.LABOR_VALUE] != null
-        ? lflv[LaborFindingLaborValue.LABOR_VALUE] // before HDRP.v.2022.3.0
-        : lflv["crfTemplateField"][CrfTemplateField.LABOR_VALUE] // from HDRP.v.2022.3.0
+    final def laborValue = lflv[LaborFindingLaborValue.CRF_TEMPLATE_FIELD][CrfTemplateField.LABOR_VALUE]
 
     final String laborValueCode = laborValue?.getAt(CODE) as String
     if (isIziRelevantLaborValue(laborValueCode)) {
       component {
         code {
           coding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.LaborValue.BASE_URL
             code = mapLocalToCentralLabValueCode(laborValueCode)
           }
           laborValue?.getAt(LaborValue.IDCONTAINERS)?.each { final idContainer ->

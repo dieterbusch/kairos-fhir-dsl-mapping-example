@@ -30,7 +30,7 @@ patient {
       value = idContainer[PSN]
       type {
         coding {
-          system = "urn:centraxx"
+          system = FhirUrls.System.IdContainerType.BASE_URL
           code = idContainer[ID_CONTAINER_TYPE]?.getAt(IdContainerType.CODE)
         }
       }

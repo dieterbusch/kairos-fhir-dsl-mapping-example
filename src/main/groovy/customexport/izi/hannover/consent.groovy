@@ -56,7 +56,7 @@ consent {
         value = patIdContainer[IdContainer.PSN]
         type {
           coding {
-            system = "urn:centraxx"
+            system = FhirUrls.System.IdContainerType.BASE_URL
             code = patIdContainer[IdContainer.ID_CONTAINER_TYPE]?.getAt(IdContainerType.CODE) as String
           }
         }
