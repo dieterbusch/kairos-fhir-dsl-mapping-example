@@ -88,7 +88,9 @@ observation {
 
   context.source[laborMapping().laborFinding().laborFindingLaborValues()].each { final lflv ->
 
-    final def laborValue = lflv[LaborFindingLaborValue.CRF_TEMPLATE_FIELD][CrfTemplateField.LABOR_VALUE]
+    final def laborValue = lflv[LaborFindingLaborValue.LABOR_VALUE] != null
+        ? lflv[LaborFindingLaborValue.LABOR_VALUE] // before HDRP.v.2022.3.0
+        : lflv["crfTemplateField"][CrfTemplateField.LABOR_VALUE] // from HDRP.v.2022.3.0
 
     final String laborValueCode = laborValue?.getAt(CODE) as String
     if (isIziRelevantLaborValue(laborValueCode)) {
