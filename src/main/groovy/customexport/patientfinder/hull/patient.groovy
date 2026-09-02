@@ -2,6 +2,7 @@ package customexport.patientfinder.hull
 
 import de.kairos.fhir.centraxx.metamodel.Country
 import de.kairos.fhir.centraxx.metamodel.CrfTemplateField
+import de.kairos.fhir.centraxx.metamodel.IdContainer
 import de.kairos.fhir.centraxx.metamodel.LaborFinding
 import de.kairos.fhir.centraxx.metamodel.LaborFindingLaborValue
 import de.kairos.fhir.centraxx.metamodel.LaborMapping
@@ -30,6 +31,9 @@ patient {
   final def heyIdc = context.source[patientMasterDataAnonymous().patientContainer().idContainer()]
       .find { final def idc -> idc[ID_CONTAINER_TYPE][CODE] == "HEY" }
 
+  if (nhsIdc != null && (nhsIdc[PSN] as String).startsWith('FAKE')) {
+    return
+  }
 
   if (nhsIdc == null && heyIdc == null) {
     return
