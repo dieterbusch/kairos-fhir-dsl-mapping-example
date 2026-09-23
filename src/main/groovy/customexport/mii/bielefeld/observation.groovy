@@ -25,6 +25,7 @@ final String issuedLvCode = "DiagnosticReport.issued"
 // the identifier.assigner laborValue
 final String assignerLvCode = "DiagnosticReport.identifier.assigner"
 
+// von KB: 34487-9, 40982-1
 final Set<String> influenzaCodes = [
         "34487-9", "60416-5", "49521-8", "61365-3", "48509-4",
         "29909-9", "40982-1", "100343-3", "100344-1", "100345-8",
@@ -64,6 +65,7 @@ final Set<String> influenzaCodes = [
         "38270-5", "38271-3", "38272-1", "44795-3", "49520-0"
 ] as Set<String>
 
+// von KB: 94500-6, 96895-8
 final Set<String> covidCodes = [
         "96957-6", "94306-8", "94640-0", "96765-3", "96763-8",
         "96986-5", "95409-9", "94760-6", "94533-7", "95425-5",
