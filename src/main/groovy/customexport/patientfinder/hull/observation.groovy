@@ -14,6 +14,7 @@ import org.hl7.fhir.r4.model.Observation
 
 import static de.kairos.fhir.centraxx.metamodel.AbstractCode.CODE
 import static de.kairos.fhir.centraxx.metamodel.RootEntities.laborMapping
+
 /**
  * Represented by a HDRP LaborMapping
  * @author Mike Wähnert
@@ -23,7 +24,7 @@ import static de.kairos.fhir.centraxx.metamodel.RootEntities.laborMapping
  */
 observation {
 
-  if (context.source[laborMapping().laborFinding().laborMethod().category()] as LaborMethodCategory != LaborMethodCategory.VITALSIGN){
+  if (context.source[laborMapping().laborFinding().laborMethod().category()] as LaborMethodCategory != LaborMethodCategory.VITALSIGN) {
     return
   }
 
@@ -49,7 +50,7 @@ observation {
     reference = "Patient/" + context.source[laborMapping().relatedPatient().id()]
   }
 
-  if (context.source[laborMapping().mappingType()] as LaborMappingType == LaborMappingType.SAMPLELABORMAPPING){
+  if (context.source[laborMapping().mappingType()] as LaborMappingType == LaborMappingType.SAMPLELABORMAPPING) {
     specimen {
       reference = "Specimen/" + context.source[laborMapping().relatedOid()]
     }
@@ -81,9 +82,14 @@ observation {
       }
 
       if (isNumeric(laborValue)) {
-        valueQuantity {
-          value = lflv[LaborFindingLaborValue.NUMERIC_VALUE]
-          unit = laborValue?.getAt(LaborValueNumeric.UNIT)?.getAt(CODE) as String
+
+        if (lflv[LaborFindingLaborValue.DEVIANT_VALUE] != null) {
+          valueString(lflv[LaborFindingLaborValue.DEVIANT_VALUE] as String)
+        } else {
+          valueQuantity {
+            value = lflv[LaborFindingLaborValue.NUMERIC_VALUE]
+            unit = laborValue?.getAt(LaborValueNumeric.UNIT)?.getAt(CODE) as String
+          }
         }
       } else if (isBoolean(laborValue)) {
         valueBoolean(lflv[LaborFindingLaborValue.BOOLEAN_VALUE] as Boolean)

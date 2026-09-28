@@ -1,6 +1,5 @@
 package customexport.patientfinder.hull
 
-import de.kairos.fhir.centraxx.metamodel.Multilingual
 
 import static de.kairos.fhir.centraxx.metamodel.AbstractIdContainer.ID_CONTAINER_TYPE
 import static de.kairos.fhir.centraxx.metamodel.AbstractIdContainer.PSN
@@ -25,5 +24,4 @@ specimen {
       }
     }
   }
-
 }

@@ -13,6 +13,9 @@ The following imported data sets are supported/tested:
 
 # Change log
 
+# 2026-09-28
+* added export of deviant string values on numeric LaborValues in Observation export
+
 # 2026-09-23
 * removing export of sample type as PFS wants to display the identifier only
 
