@@ -141,14 +141,15 @@ bundle {
   String medSystem = null
 
   final String sourceCode = context.source[medication().code()]
+  final String text = context.source[medication().name()]
   String medCode = null
 
   if (sourceCode.startsWith("ATC_")) {
     medCode = sourceCode.substring(4)
-    medSystem = "http://fhir.de/CodeSystem/ifa/pzn"
+    medSystem = "http://fhir.de/CodeSystem/bfarm/atc"
   } else if (sourceCode.startsWith("PZN_")) {
     medCode = sourceCode.substring(4)
-    medSystem = "http://fhir.de/CodeSystem/bfarm/atc"
+    medSystem = "http://fhir.de/CodeSystem/ifa/pzn"
   }
 
 
@@ -192,6 +193,7 @@ bundle {
 
               medicationCodeableConcept {
                 if (medSystem != null) {
+                  text = sourceCode as String
                   coding {
                     system = medSystem
                     code = medCode
