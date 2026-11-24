@@ -33,6 +33,12 @@ diagnosticReport {
 
   id = "DiagnosticReport/" + context.source[laborFinding().id()]
 
+  meta {
+    profile "https://www.medizininformatik-initiative.de/fhir/modul-mikrobio/StructureDefinition/mii-pr-mikrobio-diagnostic-report"
+  }
+
+  language = "de"
+
   identifier {
     type {
       coding {
@@ -42,7 +48,7 @@ diagnosticReport {
     }
     system = "https://ukowl.de/sid/mii-exa-mikrobio-diagnosticreport"
     value = context.source[laborFinding().laborFindingId()]
-
+    use = "official"
     assigner {
       identifier {
         system = "https://www.medizininformatik-initiative.de/fhir/core/CodeSystem/core-location-identifier"
@@ -81,7 +87,9 @@ diagnosticReport {
       system = "http://loinc.org"
       code = "11502-2"
     }
+    text = "Mikrobiologischer Laborbefund"
   }
+
 
   final def lm = context.source[laborFinding().laborMappings()].find {
     it[LaborMapping.RELATED_PATIENT] != null
@@ -105,7 +113,7 @@ diagnosticReport {
         extension {
           url = "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/QuelleKlinischesBezugsdatum"
           valueCoding {
-            system = "https://www.medizininformatik-initiative.de/fhir/core/modul-labor/ValueSet/QuelleKlinischesBezugsdatum"
+            system = "http://snomed.info/sct"
             code = klinischesBD[CODE] as String
           }
         }
@@ -126,6 +134,14 @@ diagnosticReport {
       reference = "Observation/" + child[LaborFinding.ID]
     }
   }
+
+  basedOn {
+    extension {
+      url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+      valueCode = "unknown"
+    }
+  }
+
 }
 
 

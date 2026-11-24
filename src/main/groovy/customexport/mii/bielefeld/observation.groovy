@@ -143,15 +143,17 @@ observation {
 
 
     code {
-        coding {
-            system = "http://loinc.org"
-            code = loincCode
-        }
 
-        coding {
-            system = FhirUrls.System.LaborValue.BASE_URL
-            code = context.source[laborFindingLaborValue().crfTemplateField().laborValue().code()] as String
-        }
+            coding {
+                system = "http://loinc.org"
+                code = loincCode
+            }
+
+            coding {
+                system = FhirUrls.System.LaborValue.BASE_URL
+                code = context.source[laborFindingLaborValue().crfTemplateField().laborValue().code()] as String
+            }
+
     }
 
     subject {

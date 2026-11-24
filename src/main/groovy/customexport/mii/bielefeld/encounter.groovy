@@ -29,9 +29,12 @@ final String STATUS = "Encounter.status"
 final String AUFNAHME_GRUND_12 = "Encounter.extension:Aufnahmegrund.extension:ErsteUndZweiteStelle.value[x]"
 final String AUFNAHME_GRUND_3 = "Encounter.extension:Aufnahmegrund.extension:DritteStelle.value[x]"
 final String AUFNAHME_GRUND_4 = "Encounter.extension:Aufnahmegrund.extension:VierteStelle.value[x]"
+
 final String ADMIT_SOURCE = "Encounter.hospitalization.admitSource"
+
 final String ENT_GRUND_12 = "Encounter.hospitalization.dischargeDisposition.extension:Entlassungsgrund.extension:ErsteUndZweiteStelle.value[x]"
 final String ENT_GRUND_3 = "Encounter.hospitalization.dischargeDisposition.extension:Entlassungsgrund.extension:DritteStelle.value[x]"
+
 final String KONTAKT_EBENE = "Encounter.type:KontaktEbene"
 final String KONTAKT_ART = "Versorgungsstellenkontakt_Encounter.type:KontaktArt"
 
